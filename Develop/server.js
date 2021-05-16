@@ -16,13 +16,21 @@ app.get("/api/notes", (req, res) => {
     return res.json(result);
 });
 
-app.post('/api/notes', (req, res) => {
+app.post("/api/notes", (req, res) => {
     req.body.id = uuidv4();
 
     console.log(req.body);
 
     const note = newNote(req.body, notes);
     return res.json(note);
+})
+
+app.delete("/api/notes:id", (req, res) => {
+    let query = req.params.id;
+    
+    let test = deleteNote(query, notes);
+    console.log(`Note ${query} removed`);
+    return res.json(test);
 })
 
 app.listen(PORT, () => {
