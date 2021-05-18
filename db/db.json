@@ -1,34 +1,12 @@
-{
-  "notes": [
-    {
-      "title": "title",
-      "text": "text",
-      "id": "1bd92755-28ab-4c4c-a494-730e9e99691b"
-    },
-    {
-      "title": "title",
-      "text": "text",
-      "id": "13c10164-b6c5-47dd-8bbb-39bdb2d29845"
-    },
-    {
-      "title": "new title",
-      "text": "new text",
-      "id": "4c11e4b3-b958-44b4-81a6-e55ee114914e"
-    },
-    {
-      "title": "new title 2",
-      "text": "new text 2",
-      "id": "f1b1d5b6-67c8-4e5e-87a5-b1d9a5bb30d9"
-    },
-    {
-      "title": "new title 2",
-      "text": "new text 2",
-      "id": "e97a7eed-e8b4-47b9-b836-e628afef6ae7"
-    },
-    {
-      "title": "new title 5",
-      "text": "new text 5",
-      "id": "c0d6c825-5a61-44e5-b44e-726b955bf1e1"
-    }
-  ]
-}
+[
+  {
+    "title": "new title 5",
+    "text": "new text 5",
+    "id": "9bad0ecb-9e51-4d9c-93ba-b670196747ef"
+  },
+  {
+    "title": "new title 7",
+    "text": "new text 8",
+    "id": "ea0672f7-52aa-4e9b-ad2c-b0c712814151"
+  }
+]
