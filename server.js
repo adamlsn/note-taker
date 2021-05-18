@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use('/static', express.static('public'));
 
-app.use("api", apiRoutes);
+app.use("/api", apiRoutes);
 app.use("/", htmlRoutes);
 
 app.listen(PORT, () => {
